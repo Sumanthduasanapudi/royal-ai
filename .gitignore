@@ -1,0 +1,52 @@
+﻿# ==========================================
+# ROYAL AI - GITIGNORE
+# ==========================================
+
+# SECRET FILES - NEVER UPLOAD TO GITHUB
+.env
+.env.*
+**/.env
+**/.env.*
+
+# NODE PACKAGES
+node_modules/
+**/node_modules/
+
+# REACT BUILD
+build/
+**/build/
+
+# VITE CACHE
+.vite/
+**/.vite/
+
+# PYTHON CACHE
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PYTHON VIRTUAL ENVIRONMENTS
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# RAG UPLOADED DOCUMENTS
+uploads/
+**/uploads/
+
+# LOG FILES
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WINDOWS / MAC SYSTEM FILES
+Thumbs.db
+.DS_Store
+
+# EDITOR FILES
+.vscode/
+.idea/

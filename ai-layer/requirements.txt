@@ -1,0 +1,8 @@
+anthropic
+fastapi
+uvicorn
+python-dotenv
+pydantic
+python-multipart
+pypdf
+python-docx
